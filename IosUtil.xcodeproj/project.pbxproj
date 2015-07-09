@@ -13,6 +13,7 @@
 		025B80461B4D0EDF00D322B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025B80451B4D0EDF00D322B3 /* Images.xcassets */; };
 		025B80491B4D0EDF00D322B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B80471B4D0EDF00D322B3 /* LaunchScreen.xib */; };
 		025B80551B4D0EE000D322B3 /* IosUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B80541B4D0EE000D322B3 /* IosUtilTests.swift */; };
+		025B80611B4D0F3000D322B3 /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B80601B4D0F3000D322B3 /* NotificationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		025B804E1B4D0EE000D322B3 /* IosUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025B80531B4D0EE000D322B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025B80541B4D0EE000D322B3 /* IosUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosUtilTests.swift; sourceTree = "<group>"; };
+		025B80601B4D0F3000D322B3 /* NotificationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationUtil.swift; path = Util/NotificationUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		025B803B1B4D0EDF00D322B3 /* IosUtil */ = {
 			isa = PBXGroup;
 			children = (
+				025B805E1B4D0EF800D322B3 /* Util */,
 				025B803E1B4D0EDF00D322B3 /* AppDelegate.swift */,
 				025B80401B4D0EDF00D322B3 /* ViewController.swift */,
 				025B80421B4D0EDF00D322B3 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				025B80531B4D0EE000D322B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		025B805E1B4D0EF800D322B3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				025B80601B4D0F3000D322B3 /* NotificationUtil.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				025B80411B4D0EDF00D322B3 /* ViewController.swift in Sources */,
 				025B803F1B4D0EDF00D322B3 /* AppDelegate.swift in Sources */,
+				025B80611B4D0F3000D322B3 /* NotificationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
